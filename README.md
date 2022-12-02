@@ -1,5 +1,3 @@
--- xiba#8492 @ 11/12/2022 9:54 PM
-
 local Metadata = {
 	LoaderData = {
 		Name = (shared.LoaderTitle or 'A Loader'),
@@ -61,7 +59,7 @@ local Top = createObject("TextLabel", {
 	Position = UDim2.new(0, 30, 0, 8),
 	Size = UDim2.new(0, 301, 0, 50),
 	Font = Enum.Font.Gotham,
-	Text = "Please Wait For 3 Second",
+	Text = "Please Wait For 2 Second",
 	TextColor3 = Metadata.LoaderData.Colors.Topic,
 	TextSize = 10,
 	TextXAlignment = Enum.TextXAlignment.Left,
